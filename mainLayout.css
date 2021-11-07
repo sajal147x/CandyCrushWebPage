@@ -1,0 +1,101 @@
+/* Copyright (c) 2017 MIT 6.813/6.831 course staff, all rights reserved.
+ * Redistribution of original or derived work requires permission of course staff.
+ */
+
+/* REMOVE ME - dashed lines and height for debugging */
+.row{
+  column-gap: 10px;
+  height: 600px;
+}
+#title{
+  font-weight: bold;
+  font-family: fantasy;
+  color: magenta;
+}
+#Table{
+  border: 1px solid black;
+}
+#mainColumn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#firstColumn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#newGameButton{
+  height: 10%;
+  width: 70%;
+  margin-left: 10%;
+}
+#gameBoard{
+  border: solid 2px black;
+}
+#cols{
+  border: 2px solid black;
+  color: white;
+  text-align: center;
+}
+
+.form-inline{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.form-inline label{
+  margin-right: 5px;
+}
+
+.form-inline input {
+  width:50px
+}
+.arrowButtons{
+    display: grid;
+    grid-gap: 5px 5px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin: 20px 20px;
+}
+
+#upButton {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+#downButton {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+#leftButton {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#rightButton {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.crush {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+input.btn:hover {
+  border-color: orange;
+}
+
+
+
+
+/* Your css code here! */
+
